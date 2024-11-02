@@ -1,0 +1,22 @@
+{
+    "cedar_version": "v2.4.7",
+    "cedar_policies": {
+        "-3359447442935506659": {
+            "description": " simple policy example for pricipal workload",
+            "policy_content": "cGVybWl0ICgKICAgIHByaW5jaXBhbCBpcyBKYW5zOjpXb3JrbG9hZCwKICAgIGFjdGlvbiBpbiBbSmFuczo6QWN0aW9uOjoiVXBkYXRlIl0sCiAgICByZXNvdXJjZSBpcyBKYW5zOjpJc3N1ZQopCndoZW4geyBwcmluY2lwYWwub3JnX2lkID09IHJlc291cmNlLm9yZ19pZCB9Ow==",
+            "creation_date": "2024-11-02T09:24:44.864797"
+        },
+        "-7800737311424324632": {
+            "description": " simple policy example for pricipal user",
+            "policy_content": "cGVybWl0ICgKICAgIHByaW5jaXBhbCBpcyBKYW5zOjpVc2VyLAogICAgYWN0aW9uIGluIFtKYW5zOjpBY3Rpb246OiJVcGRhdGUiXSwKICAgIHJlc291cmNlIGlzIEphbnM6Oklzc3VlCikKd2hlbiB7IHByaW5jaXBhbC5jb3VudHJ5ID09IHJlc291cmNlLmNvdW50cnkgfTs=",
+            "creation_date": "2024-11-02T09:24:44.864797"
+        },
+        "-3727270369280502873": {
+            "description": " simple policy example for pricipal role",
+            "policy_content": "cGVybWl0ICgKICAgIHByaW5jaXBhbCA9PSBKYW5zOjpSb2xlOjoiQWRtaW4iLAogICAgYWN0aW9uIGluIFtKYW5zOjpBY3Rpb246OiJVcGRhdGUiXSwKICAgIHJlc291cmNlIGlzIEphbnM6Oklzc3VlCik7",
+            "creation_date": "2024-11-02T09:24:44.864797"
+        }
+    },
+    "cedar_schema": "eyJKYW5zIjogeyJjb21tb25UeXBlcyI6IHsiVXJsIjogeyJ0eXBlIjogIlJlY29yZCIsICJhdHRyaWJ1dGVzIjogeyJob3N0IjogeyJ0eXBlIjogIkVudGl0eU9yQ29tbW9uIiwgIm5hbWUiOiAiU3RyaW5nIn0sICJwYXRoIjogeyJ0eXBlIjogIkVudGl0eU9yQ29tbW9uIiwgIm5hbWUiOiAiU3RyaW5nIn0sICJwcm90b2NvbCI6IHsidHlwZSI6ICJFbnRpdHlPckNvbW1vbiIsICJuYW1lIjogIlN0cmluZyJ9fX19LCAiZW50aXR5VHlwZXMiOiB7IlRydXN0ZWRJc3N1ZXIiOiB7InNoYXBlIjogeyJ0eXBlIjogIlJlY29yZCIsICJhdHRyaWJ1dGVzIjogeyJpc3N1ZXJfZW50aXR5X2lkIjogeyJ0eXBlIjogIkVudGl0eU9yQ29tbW9uIiwgIm5hbWUiOiAiVXJsIn19fX0sICJXb3JrbG9hZCI6IHsic2hhcGUiOiB7InR5cGUiOiAiUmVjb3JkIiwgImF0dHJpYnV0ZXMiOiB7Im9yZ19pZCI6IHsidHlwZSI6ICJFbnRpdHlPckNvbW1vbiIsICJuYW1lIjogIlN0cmluZyJ9fX19LCAiVXNlciI6IHsibWVtYmVyT2ZUeXBlcyI6IFsiUm9sZSJdLCAic2hhcGUiOiB7InR5cGUiOiAiUmVjb3JkIiwgImF0dHJpYnV0ZXMiOiB7ImNvdW50cnkiOiB7InR5cGUiOiAiRW50aXR5T3JDb21tb24iLCAibmFtZSI6ICJTdHJpbmcifX19fSwgIlJvbGUiOiB7fSwgIklzc3VlIjogeyJzaGFwZSI6IHsidHlwZSI6ICJSZWNvcmQiLCAiYXR0cmlidXRlcyI6IHsiY291bnRyeSI6IHsidHlwZSI6ICJFbnRpdHlPckNvbW1vbiIsICJuYW1lIjogIlN0cmluZyJ9LCAib3JnX2lkIjogeyJ0eXBlIjogIkVudGl0eU9yQ29tbW9uIiwgIm5hbWUiOiAiU3RyaW5nIn19fX0sICJBY2Nlc3NfdG9rZW4iOiB7InNoYXBlIjogeyJ0eXBlIjogIlJlY29yZCIsICJhdHRyaWJ1dGVzIjogeyJhdWQiOiB7InR5cGUiOiAiRW50aXR5T3JDb21tb24iLCAibmFtZSI6ICJTdHJpbmcifSwgImNsaWVudF9pZCI6IHsidHlwZSI6ICJFbnRpdHlPckNvbW1vbiIsICJuYW1lIjogIlN0cmluZyJ9LCAiaXNzIjogeyJ0eXBlIjogIkVudGl0eU9yQ29tbW9uIiwgIm5hbWUiOiAiU3RyaW5nIn0sICJqdGkiOiB7InR5cGUiOiAiRW50aXR5T3JDb21tb24iLCAibmFtZSI6ICJTdHJpbmcifSwgIm9yZ19pZCI6IHsidHlwZSI6ICJFbnRpdHlPckNvbW1vbiIsICJuYW1lIjogIlN0cmluZyJ9fX19LCAiaWRfdG9rZW4iOiB7InNoYXBlIjogeyJ0eXBlIjogIlJlY29yZCIsICJhdHRyaWJ1dGVzIjogeyJhdWQiOiB7InR5cGUiOiAiRW50aXR5T3JDb21tb24iLCAibmFtZSI6ICJTdHJpbmcifSwgImlzcyI6IHsidHlwZSI6ICJFbnRpdHlPckNvbW1vbiIsICJuYW1lIjogIlN0cmluZyJ9LCAic3ViIjogeyJ0eXBlIjogIkVudGl0eU9yQ29tbW9uIiwgIm5hbWUiOiAiU3RyaW5nIn19fX19LCAiYWN0aW9ucyI6IHsiVXBkYXRlIjogeyJhcHBsaWVzVG8iOiB7InJlc291cmNlVHlwZXMiOiBbIklzc3VlIl0sICJwcmluY2lwYWxUeXBlcyI6IFsiV29ya2xvYWQiLCAiVXNlciIsICJSb2xlIl19fX19fQ==",
+    "trusted_issuers": []
+}

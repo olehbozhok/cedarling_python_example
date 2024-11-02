@@ -1,0 +1,137 @@
+{
+    "Jans": {
+        "commonTypes": {
+            "Url": {
+                "type": "Record",
+                "attributes": {
+                    "host": {
+                        "type": "EntityOrCommon",
+                        "name": "String"
+                    },
+                    "path": {
+                        "type": "EntityOrCommon",
+                        "name": "String"
+                    },
+                    "protocol": {
+                        "type": "EntityOrCommon",
+                        "name": "String"
+                    }
+                }
+            }
+        },
+        "entityTypes": {
+            "TrustedIssuer": {
+                "shape": {
+                    "type": "Record",
+                    "attributes": {
+                        "issuer_entity_id": {
+                            "type": "EntityOrCommon",
+                            "name": "Url"
+                        }
+                    }
+                }
+            },
+            "Workload": {
+                "shape": {
+                    "type": "Record",
+                    "attributes": {
+                        "org_id": {
+                            "type": "EntityOrCommon",
+                            "name": "String"
+                        }
+                    }
+                }
+            },
+            "User": {
+                "memberOfTypes": [
+                    "Role"
+                ],
+                "shape": {
+                    "type": "Record",
+                    "attributes": {
+                        "country": {
+                            "type": "EntityOrCommon",
+                            "name": "String"
+                        }
+                    }
+                }
+            },
+            "Role": {},
+            "Issue": {
+                "shape": {
+                    "type": "Record",
+                    "attributes": {
+                        "country": {
+                            "type": "EntityOrCommon",
+                            "name": "String"
+                        },
+                        "org_id": {
+                            "type": "EntityOrCommon",
+                            "name": "String"
+                        }
+                    }
+                }
+            },
+            "Access_token": {
+                "shape": {
+                    "type": "Record",
+                    "attributes": {
+                        "aud": {
+                            "type": "EntityOrCommon",
+                            "name": "String"
+                        },
+                        "client_id": {
+                            "type": "EntityOrCommon",
+                            "name": "String"
+                        },
+                        "iss": {
+                            "type": "EntityOrCommon",
+                            "name": "String"
+                        },
+                        "jti": {
+                            "type": "EntityOrCommon",
+                            "name": "String"
+                        },
+                        "org_id": {
+                            "type": "EntityOrCommon",
+                            "name": "String"
+                        }
+                    }
+                }
+            },
+            "id_token": {
+                "shape": {
+                    "type": "Record",
+                    "attributes": {
+                        "aud": {
+                            "type": "EntityOrCommon",
+                            "name": "String"
+                        },
+                        "iss": {
+                            "type": "EntityOrCommon",
+                            "name": "String"
+                        },
+                        "sub": {
+                            "type": "EntityOrCommon",
+                            "name": "String"
+                        }
+                    }
+                }
+            }
+        },
+        "actions": {
+            "Update": {
+                "appliesTo": {
+                    "resourceTypes": [
+                        "Issue"
+                    ],
+                    "principalTypes": [
+                        "Workload",
+                        "User",
+                        "Role"
+                    ]
+                }
+            }
+        }
+    }
+}
