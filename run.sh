@@ -2,7 +2,6 @@ cedar translate-schema --direction cedar-to-json -s ./project_files/cedarling_co
 
 python ./build_policy.py
 
-cargo run
-
+python ./example.py
 
 echo "done"

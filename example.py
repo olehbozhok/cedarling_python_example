@@ -66,88 +66,79 @@ resource = ResourceData.from_dict({
     "country": "US"
 })
 
-action_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJib0c4ZGZjNU1LVG4zN283Z3NkQ2V5cUw4THBXUXRnb080MW0xS1p3ZHEwIiwiY29kZSI6ImJmMTkzNGY2LTM5MDUtNDIwYS04Mjk5LTZiMmUzZmZkZGQ2ZSIsImlzcyI6Imh0dHBzOi8vYWRtaW4tdWktdGVzdC5nbHV1Lm9yZyIsInRva2VuX3R5cGUiOiJCZWFyZXIiLCJjbGllbnRfaWQiOiI1YjQ0ODdjNC04ZGIxLTQwOWQtYTY1My1mOTA3YjgwOTQwMzkiLCJhdWQiOiI1YjQ0ODdjNC04ZGIxLTQwOWQtYTY1My1mOTA3YjgwOTQwMzkiLCJhY3IiOiJiYXNpYyIsIng1dCNTMjU2IjoiIiwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSJdLCJvcmdfaWQiOiJzb21lX2xvbmdfaWQiLCJhdXRoX3RpbWUiOjE3MjQ4MzA3NDYsImV4cCI6MTcyNDk0NTk3OCwiaWF0IjoxNzI0ODMyMjU5LCJqdGkiOiJseFRtQ1ZSRlR4T2pKZ3ZFRXBvek1RIiwibmFtZSI6IkRlZmF1bHQgQWRtaW4gVXNlciIsInN0YXR1cyI6eyJzdGF0dXNfbGlzdCI6eyJpZHgiOjIwMSwidXJpIjoiaHR0cHM6Ly9hZG1pbi11aS10ZXN0LmdsdXUub3JnL2phbnMtYXV0aC9yZXN0djEvc3RhdHVzX2xpc3QifX19._eQT-DsfE_kgdhA0YOyFxxPEMNw44iwoelWa5iU1n9s"
+action_token = "eyJraWQiOiJjb25uZWN0X2JmZmVhYzA4LTEyZTgtNGJiYy04YjA3LTAxOTk0NGI3MjJlNF9zaWdfcnMyNTYiLCJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJKM0JtdG5QUEI4QmpNYlNjV21SOGNqVDlnV0NDVEhLZlNmMGRrYk92aEdnIiwiY29kZSI6IjY5N2RhODBkLTE2YWQtNDFmOC1hZDhlLWM3MWY4ODFjNTQ3MyIsImlzcyI6Imh0dHBzOi8vdGVzdC1jYXNhLmdsdXUuaW5mbyIsInRva2VuX3R5cGUiOiJCZWFyZXIiLCJjbGllbnRfaWQiOiI5NWJkNjNkMi04NWVkLTQwYWQtYmQwMy0zYzE4YWY3OTdjYTQiLCJhdWQiOiI5NWJkNjNkMi04NWVkLTQwYWQtYmQwMy0zYzE4YWY3OTdjYTQiLCJhY3IiOiJzaW1wbGVfcGFzc3dvcmRfYXV0aCIsIng1dCNTMjU2IjoiIiwibmJmIjoxNzMwNDk0NTQzLCJzY29wZSI6WyJyb2xlIiwib3BlbmlkIl0sImF1dGhfdGltZSI6MTczMDQ5NDU0MiwiZXhwIjoxNzMwNTc0MjQ1LCJpYXQiOjE3MzA0OTQ1NDMsImp0aSI6InFwQ3U1MlowUzh5bmZaN3VmQ1hRb3ciLCJ1c2VybmFtZSI6Ik9sZWggQm96aG9rIiwic3RhdHVzIjp7InN0YXR1c19saXN0Ijp7ImlkeCI6MTAwMywidXJpIjoiaHR0cHM6Ly90ZXN0LWNhc2EuZ2x1dS5pbmZvL2phbnMtYXV0aC9yZXN0djEvc3RhdHVzX2xpc3QifX19.A-k8fP9yqF-LwyNniohlLzwy2y0smbkavubNHKiNn8zAWAz0PFcQXnDKJEpcigXS7iwBRieHcEAgCrBCbsPKZDHOohwx2CFNPK1AvECRmd0U69siaEJqljECiUHqLkHOT9LD89Ag752QNauuQvXnHKuVIKJ7ykg7Jcc5-gi_mH_OfGAz-yYPYJLy0tBiT9LDFu1sQT04P5MqzrSxwBk3PW7Af3W0Dl-hl77SSAAKy7TkYuTEPWLat0nMwuLNzgBkmsGwPdPGmZl5YqMv1VOpr19Xjopr8lMAHN1CdEEFCXoBZewwXGPQFzoF_J9CW95tx_T16Z6iM2EXoIJyplgSwg"
 """
 JSON payload of access token
 {
-  "sub": "boG8dfc5MKTn37o7gsdCeyqL8LpWQtgoO41m1KZwdq0",
-  "code": "bf1934f6-3905-420a-8299-6b2e3ffddd6e",
-  "iss": "https://admin-ui-test.gluu.org",
+  "sub": "J3BmtnPPB8BjMbScWmR8cjT9gWCCTHKfSf0dkbOvhGg",
+  "code": "697da80d-16ad-41f8-ad8e-c71f881c5473",
+  "iss": "https://test-casa.gluu.info",
   "token_type": "Bearer",
-  "client_id": "5b4487c4-8db1-409d-a653-f907b8094039",
-  "aud": "5b4487c4-8db1-409d-a653-f907b8094039",
-  "acr": "basic",
+  "client_id": "95bd63d2-85ed-40ad-bd03-3c18af797ca4",
+  "aud": "95bd63d2-85ed-40ad-bd03-3c18af797ca4",
+  "acr": "simple_password_auth",
   "x5t#S256": "",
+  "nbf": 1730494543,
   "scope": [
-    "openid",
-    "profile"
+    "role",
+    "openid"
   ],
-  "org_id": "some_long_id",
-  "auth_time": 1724830746,
-  "exp": 1724945978,
-  "iat": 1724832259,
-  "jti": "lxTmCVRFTxOjJgvEEpozMQ",
-  "name": "Default Admin User",
+  "auth_time": 1730494542,
+  "exp": 1730574245,
+  "iat": 1730494543,
+  "jti": "qpCu52Z0S8ynfZ7ufCXQow",
+  "username": "Oleh Bozhok",
   "status": {
     "status_list": {
-      "idx": 201,
-      "uri": "https://admin-ui-test.gluu.org/jans-auth/restv1/status_list"
+      "idx": 1003,
+      "uri": "https://test-casa.gluu.info/jans-auth/restv1/status_list"
     }
   }
 }
 """
 
-id_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY3IiOiJiYXNpYyIsImFtciI6IjEwIiwiYXVkIjoiNWI0NDg3YzQtOGRiMS00MDlkLWE2NTMtZjkwN2I4MDk0MDM5IiwiZXhwIjoxNzI0ODM1ODU5LCJpYXQiOjE3MjQ4MzIyNTksInN1YiI6ImJvRzhkZmM1TUtUbjM3bzdnc2RDZXlxTDhMcFdRdGdvTzQxbTFLWndkcTAiLCJpc3MiOiJodHRwczovL2FkbWluLXVpLXRlc3QuZ2x1dS5vcmciLCJqdGkiOiJzazNUNDBOWVNZdWs1c2FIWk5wa1p3Iiwibm9uY2UiOiJjMzg3MmFmOS1hMGY1LTRjM2YtYTFhZi1mOWQwZTg4NDZlODEiLCJzaWQiOiI2YTdmZTUwYS1kODEwLTQ1NGQtYmU1ZC01NDlkMjk1OTVhMDkiLCJqYW5zT3BlbklEQ29ubmVjdFZlcnNpb24iOiJvcGVuaWRjb25uZWN0LTEuMCIsImNfaGFzaCI6InBHb0s2WV9SS2NXSGtVZWNNOXV3NlEiLCJhdXRoX3RpbWUiOjE3MjQ4MzA3NDYsImdyYW50IjoiYXV0aG9yaXphdGlvbl9jb2RlIiwic3RhdHVzIjp7InN0YXR1c19saXN0Ijp7ImlkeCI6MjAyLCJ1cmkiOiJodHRwczovL2FkbWluLXVpLXRlc3QuZ2x1dS5vcmcvamFucy1hdXRoL3Jlc3R2MS9zdGF0dXNfbGlzdCJ9fSwicm9sZSI6IkFkbWluIn0.pU6-2tleV9OzpIMH4coVzu9kmh6Po6VPMchoRGYFYjQ"
+id_token = "eyJraWQiOiJjb25uZWN0X2JmZmVhYzA4LTEyZTgtNGJiYy04YjA3LTAxOTk0NGI3MjJlNF9zaWdfcnMyNTYiLCJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoiemFqTC1JRVBiSjdYcHJiQWdpNUxBZyIsInN1YiI6IkozQm10blBQQjhCak1iU2NXbVI4Y2pUOWdXQ0NUSEtmU2YwZGtiT3ZoR2ciLCJhbXIiOltdLCJpc3MiOiJodHRwczovL3Rlc3QtY2FzYS5nbHV1LmluZm8iLCJub25jZSI6ImI5YjZkZjUxLWEwNGEtNDc1YS05MTQxLTNmZTU4OWMyYWFiOCIsInNpZCI6IjcxZWVkYjNhLTdjMTgtNDIwYy05ZmVhLTM3ZDY1MzI5OTBlNiIsImphbnNPcGVuSURDb25uZWN0VmVyc2lvbiI6Im9wZW5pZGNvbm5lY3QtMS4wIiwiYXVkIjoiOTViZDYzZDItODVlZC00MGFkLWJkMDMtM2MxOGFmNzk3Y2E0IiwiYWNyIjoic2ltcGxlX3Bhc3N3b3JkX2F1dGgiLCJjX2hhc2giOiJwUWk5cllxbVNDVmMzdEstLTJBZ2lBIiwibmJmIjoxNzMwNDk0NTQzLCJhdXRoX3RpbWUiOjE3MzA0OTQ1NDIsImV4cCI6MTczMDQ5ODE0MywiZ3JhbnQiOiJhdXRob3JpemF0aW9uX2NvZGUiLCJpYXQiOjE3MzA0OTQ1NDMsImp0aSI6InYyU1dHZkFFUUdXWjFtUERTSlB2YmciLCJzdGF0dXMiOnsic3RhdHVzX2xpc3QiOnsiaWR4IjoxMDA0LCJ1cmkiOiJodHRwczovL3Rlc3QtY2FzYS5nbHV1LmluZm8vamFucy1hdXRoL3Jlc3R2MS9zdGF0dXNfbGlzdCJ9fX0.Ot6WNQlg4hVPA4b6dRPO-tr6V20EzEm_3SMN-qRkfpkWQ-GSccFLed5G4sBLh_YIN-qh-P7gsFGg7Y6QS7tsR6CgNB0uVu3lqpqqrkvwxUw0DS4DYQFZ2pZygfVqQc9o7V9JThdVG7VG_SZXnKa8H8ORmp9JbTOTrLqAOgoQ1YdFfcceWob5BcFLCOXXOao90ESC5ntIHXm4lVwjN19odJHgoJ9qRFE69pm4vgqZ211cbfkoA_D12TDEaVmJ5n_982i7OvwK2zdNHlqlVTKN9Ncy6gvvRHb1RsgaVjp5Nd--oMdlb76wy94VIqdbFqDAXpogzS-K2m5n0yGfOhchAw"
 """
 JSON payload of id token
 {
-  "acr": "basic",
-  "amr": "10",
-  "aud": "5b4487c4-8db1-409d-a653-f907b8094039",
-  "exp": 1724835859,
-  "iat": 1724832259,
-  "sub": "boG8dfc5MKTn37o7gsdCeyqL8LpWQtgoO41m1KZwdq0",
-  "iss": "https://admin-ui-test.gluu.org",
-  "jti": "sk3T40NYSYuk5saHZNpkZw",
-  "nonce": "c3872af9-a0f5-4c3f-a1af-f9d0e8846e81",
-  "sid": "6a7fe50a-d810-454d-be5d-549d29595a09",
+  "at_hash": "zajL-IEPbJ7XprbAgi5LAg",
+  "sub": "J3BmtnPPB8BjMbScWmR8cjT9gWCCTHKfSf0dkbOvhGg",
+  "amr": [],
+  "iss": "https://test-casa.gluu.info",
+  "nonce": "b9b6df51-a04a-475a-9141-3fe589c2aab8",
+  "sid": "71eedb3a-7c18-420c-9fea-37d6532990e6",
   "jansOpenIDConnectVersion": "openidconnect-1.0",
-  "c_hash": "pGoK6Y_RKcWHkUecM9uw6Q",
-  "auth_time": 1724830746,
+  "aud": "95bd63d2-85ed-40ad-bd03-3c18af797ca4",
+  "acr": "simple_password_auth",
+  "c_hash": "pQi9rYqmSCVc3tK--2AgiA",
+  "nbf": 1730494543,
+  "auth_time": 1730494542,
+  "exp": 1730498143,
   "grant": "authorization_code",
+  "iat": 1730494543,
+  "jti": "v2SWGfAEQGWZ1mPDSJPvbg",
   "status": {
     "status_list": {
-      "idx": 202,
-      "uri": "https://admin-ui-test.gluu.org/jans-auth/restv1/status_list"
+      "idx": 1004,
+      "uri": "https://test-casa.gluu.info/jans-auth/restv1/status_list"
     }
-  },
+  }
 }
 """
 
-userinfo_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3VudHJ5IjoiVVMiLCJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJ1c2VybmFtZSI6IlVzZXJOYW1lRXhhbXBsZSIsInN1YiI6ImJvRzhkZmM1TUtUbjM3bzdnc2RDZXlxTDhMcFdRdGdvTzQxbTFLWndkcTAiLCJpc3MiOiJodHRwczovL2FkbWluLXVpLXRlc3QuZ2x1dS5vcmciLCJnaXZlbl9uYW1lIjoiQWRtaW4iLCJtaWRkbGVfbmFtZSI6IkFkbWluIiwiaW51bSI6IjhkMWNkZTZhLTE0NDctNDc2Ni1iM2M4LTE2NjYzZTEzYjQ1OCIsImNsaWVudF9pZCI6IjViNDQ4N2M0LThkYjEtNDA5ZC1hNjUzLWY5MDdiODA5NDAzOSIsImF1ZCI6IjViNDQ4N2M0LThkYjEtNDA5ZC1hNjUzLWY5MDdiODA5NDAzOSIsInVwZGF0ZWRfYXQiOjE3MjQ3Nzg1OTEsIm5hbWUiOiJEZWZhdWx0IEFkbWluIFVzZXIiLCJuaWNrbmFtZSI6IkFkbWluIiwiZmFtaWx5X25hbWUiOiJVc2VyIiwianRpIjoiZmFpWXZhWUlUMGNEQVQ3Rm93MHBRdyIsImphbnNBZG1pblVJUm9sZSI6WyJhcGktYWRtaW4iXSwiZXhwIjoxNzI0OTQ1OTc4LCJyb2xlIjoiQWRtaW4ifQ.lSTHCKWi7BU_I-HI1dDAqvc6eFVG1YtDmRANiDnyFP8"
+userinfo_token = "eyJraWQiOiJjb25uZWN0X2JmZmVhYzA4LTEyZTgtNGJiYy04YjA3LTAxOTk0NGI3MjJlNF9zaWdfcnMyNTYiLCJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJKM0JtdG5QUEI4QmpNYlNjV21SOGNqVDlnV0NDVEhLZlNmMGRrYk92aEdnIiwiYXVkIjoiOTViZDYzZDItODVlZC00MGFkLWJkMDMtM2MxOGFmNzk3Y2E0Iiwicm9sZSI6WyJNYW5hZ2VyIiwiU3VwcG9ydCJdLCJpc3MiOiJodHRwczovL3Rlc3QtY2FzYS5nbHV1LmluZm8iLCJqdGkiOiJxT3hrbE1ZZlNmcWRZZ1hsMDFqOXdBIiwiY2xpZW50X2lkIjoiOTViZDYzZDItODVlZC00MGFkLWJkMDMtM2MxOGFmNzk3Y2E0In0.DyXs_NEN6-KMebTHJu1_54CXOlrEWube85pV4ZIoNz_EqePZnirSydfNQJZMf1RLXauZIhug0EOpGxbIqRMfGTOlHqTc9nwXN82lRSkF0ctUkl-t3jeJNOXmQQLjDGEhI2IXjmDcIwvms1qy-QUtct9ccniEt6SdfROnSYhY8rAVYLaf34UJmUCav01Q9iGBn5E_ASr4G8zZibq4b9z_AX6DNZilmVeJIy4HLPRNdAtsJs6YHuQDN1QzQNJiFxrJlytMXwdMh1mXRIADBFVsIVte0fHOJBqhPS60t81qsa4r9tE9tJ-li5yRLGNFgab0zdUjPp0M6DrKUigq-nPBQg"
 """
 JSON payload of userinfo token
 {
-  "country": "US",
-  "email": "user@example.com",
-  "username": "UserNameExample",
-  "sub": "boG8dfc5MKTn37o7gsdCeyqL8LpWQtgoO41m1KZwdq0",
-  "iss": "https://admin-ui-test.gluu.org",
-  "given_name": "Admin",
-  "middle_name": "Admin",
-  "inum": "8d1cde6a-1447-4766-b3c8-16663e13b458",
-  "client_id": "5b4487c4-8db1-409d-a653-f907b8094039",
-  "aud": "5b4487c4-8db1-409d-a653-f907b8094039",
-  "updated_at": 1724778591,
-  "name": "Default Admin User",
-  "nickname": "Admin",
-  "family_name": "User",
-  "jti": "faiYvaYIT0cDAT7Fow0pQw",
-  "jansAdminUIRole": [
-    "api-admin"
+  "sub": "J3BmtnPPB8BjMbScWmR8cjT9gWCCTHKfSf0dkbOvhGg",
+  "aud": "95bd63d2-85ed-40ad-bd03-3c18af797ca4",
+  "role": [
+    "Manager",
+    "Support"
   ],
-  "exp": 1724945978,
-  "role":"Admin"
+  "iss": "https://test-casa.gluu.info",
+  "jti": "qOxklMYfSfqdYgXl01j9wA",
+  "client_id": "95bd63d2-85ed-40ad-bd03-3c18af797ca4"
 }
 """
 
@@ -164,31 +155,30 @@ authorize_result = instance.authorize(request)
 print(*instance.pop_logs(), sep="\n\n")
 
 # if you change org_id result will be false
-assert authorize_result.is_allowed()
+print("result of request: ", authorize_result.is_allowed())
 
 # watch on the decision for workload
 workload_result = authorize_result.workload()
-print(workload_result.decision)
+print("workload decision", workload_result.decision)
 
 # show diagnostic information
-workload_diagnostic = workload_result.diagnostics
-for i, reason in enumerate(workload_diagnostic.reason):
-    if i == 0:
-        print("reason policies:")
-    print(reason)
+# workload_diagnostic = workload_result.diagnostics
+# for i, reason in enumerate(workload_diagnostic.reason):
+#     if i == 0:
+#         print("reason policies:")
+#     print(reason)
 
-for i, error in enumerate(workload_diagnostic.errors):
-    if i == 0:
-        print("errors:")
-    print("id:", error.id, "error:", error.error)
+# for i, error in enumerate(workload_diagnostic.errors):
+#     if i == 0:
+#         print("errors:")
+#     print("id:", error.id, "error:", error.error)
 
 
 # watch on the decision for person
-print(authorize_result.person().decision)
+print("person decision", authorize_result.person().decision)
 
 
-# watch on the decision for role
 # watch on the decision for role if present
 role_result = authorize_result.role()
 if role_result is not None:
-    print(authorize_result.role().decision)
+    print("role decision", authorize_result.role().decision)

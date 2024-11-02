@@ -1,7 +1,7 @@
 namespace Jans {
 type Url = {"host": String, "path": String, "protocol": String};
 entity TrustedIssuer = {"issuer_entity_id": Url};
-entity Issue = {"org_id": String};
+entity Issue = {};
 entity id_token = {"aud": String,"iss": String, "sub": String};
 entity Role;
 entity User in [Role] = {};
